@@ -1,0 +1,21 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore environment variables file
+.env
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore editor-specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.idea/
+
+# Ignore log files
+*.log
+
+# Ignore dependencies
+venv/
+env/
