@@ -16,7 +16,7 @@ This project is built using FastAPI, a modern, fast (high-performance), web fram
 
 ## Installation
 1. Clone the repository:
-git clone https://github.com/bzamanbd/FastAPI-CRUD-Locally-without-DB
+git clone https://github.com/bzamanbd/Pizza-Delivery
 
 2. Navigate to the project directory:
 cd PIZZA-DELIVERY
