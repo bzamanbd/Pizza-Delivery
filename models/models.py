@@ -6,8 +6,8 @@ from sqlalchemy_utils.types import ChoiceType
 class User(Base): 
     __tablename__:str = "users"
     id = Column(Integer, autoincrement=True,primary_key=True)
-    username = Column(String,index=True) 
-    email = Column(String, unique=True ) 
+    username = Column(String(50),index=True) 
+    email = Column(String(50), unique=True ) 
     password = Column(String, nullable=True) 
     is_active = Column(Boolean, default=True)
     is_staff = Column(Boolean, default=False)

@@ -15,7 +15,6 @@ def get_users(db: Session, skip: int = 0, limit: int = 100)->list[User]:
 def create_user(db: Session, user: SignUpSchema)->User:
     # fake_hashed_password = user.password + "notreallyhashed"
     new_user = User( 
-    id = user.id,
     username = user.username,
     email = user.email,
     password = generate_password_hash(user.password),
